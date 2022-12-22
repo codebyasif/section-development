@@ -1,0 +1,20 @@
+@font-face {
+    src: url('resources/fonts/hk-grotesk.regular.ttf');
+    font-family: HKGroteskPro, sans-serif;
+}
+
+body {
+    font-family: HKGroteskPro, sans-serif;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1399px){
+    .display-3{
+        font-size: 3rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .display-3{
+        font-size: 2.25rem;
+    }
+}
